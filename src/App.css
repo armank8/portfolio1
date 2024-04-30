@@ -1,37 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-    --white:#fff;
-    --max-width:1200px;
+:root {
+  --white: #fff;
+  --black: #000;
+  --max-width: 1200px;
 }
-.section_container{
-    padding: 5rem 2rem;
-    max-width: var(--max-width);
-    margin: auto;
+body{
+    background-color: var(--black);
 }
-.about{
-    background-color: #000;
+.section_container {
+  padding: 5rem 2rem;
+  max-width: var(--max-width);
+  margin: auto;
 }
-.about_container{
-    background-color: #111;
-    border-radius: 1rem;
-    /* padding-block: 0; */
-    margin-top: -8rem;
-    padding: 1rem;
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: var(--white);
 }
-h2{
-    text-align: center;
-    font-size: 2rem;
-    color:var(--white);
+p {
+  text-indent: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  word-spacing: 0.2rem;
+  margin: 1rem 0;
+  color: var(--white);
 }
-p{
-    text-indent: 2rem;
-    font-size: 1.2rem;
-    line-height: 1.5rem;
-    word-spacing: .2rem;
-    margin: 1rem 0;
-    color:var(--white);
+/* columns */
+.column-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
 }
+
+/* About */
+.about {
+  background-color: #000;
+}
+.about_container {
+  background-color: #111;
+  border-radius: 1rem;
+  /* padding-block: 0; */
+  margin-top: -8rem;
+  padding: 1rem;
+}
+
+/* Testimonials */
+.testimonials h2 {
+  color: var(--black);
+}
+
+/* Education */
+
