@@ -1,6 +1,7 @@
 import arman3 from "../assets/arman3.jpg";
 import certificate1 from "../assets/certificate1.jpg";
-import PDFViewer from "./PDFViewer";
+import certificate2 from "../assets/certificate2.jpg";
+
 
 
 
@@ -52,12 +53,9 @@ export default function Education() {
               </div>
             </div>
             <div className="institution_img">
-              {/* <iframe
-                src="https://drive.google.com/file/d/1GkLi7S9Qf2QgAfdxfVMA8DbDHqiGomg1/preview"
-                width='100%'
-                height={400}
-              ></iframe> */}
-              <PDFViewer></PDFViewer>
+            <div className="institution_img">
+              <img src={certificate2} alt="" />
+            </div>
             </div>
           </div>
         </div>

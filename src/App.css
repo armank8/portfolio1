@@ -67,10 +67,10 @@ p {
   margin: 10rem 0;
   justify-items: center;
 }
-.institution_info {
+/* .institution_info {
   display: flex;
   align-items: center;
-}
+} */
 .institution_details {
   background: linear-gradient(to right, #015234, #020866);
   border-radius: 2rem;
