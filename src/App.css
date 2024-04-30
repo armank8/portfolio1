@@ -60,20 +60,29 @@ p {
 }
 
 /* Education */
-.ewu{
-    display: grid;
-    grid-template-columns: 1fr 1.5fr;
-    gap:1rem;
+.institution {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 1rem;
+  margin: 10rem 0;
+  justify-items: center;
 }
-.ewu_info{
-    display: flex;
-    align-items: center;
+.institution_info {
+  display: flex;
+  align-items: center;
 }
-.ewu_details {
-  background: linear-gradient(to right,#015234, #020866);
+.institution_details {
+  background: linear-gradient(to right, #015234, #020866);
   border-radius: 2rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
-.ewu img {
+.institution img,iframe {
   border-radius: 2rem;
+}
+
+/* media query */
+@media screen and (max-width: 800px) {
+    .institution{
+        grid-template-columns: 1fr;
+    }
 }
