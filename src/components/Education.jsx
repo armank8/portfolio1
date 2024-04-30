@@ -1,6 +1,8 @@
 import arman3 from "../assets/arman3.jpg";
 import certificate1 from "../assets/certificate1.jpg";
-import certificate2 from "../assets/certificate2.pdf";
+import PDFViewer from "./PDFViewer";
+
+
 
 export default function Education() {
   return (
@@ -55,9 +57,7 @@ export default function Education() {
                 width='100%'
                 height={400}
               ></iframe> */}
-              <object data="https://drive.google.com/file/d/1GkLi7S9Qf2QgAfdxfVMA8DbDHqiGomg1/preview" width="50rem">
-
-              </object>
+              <PDFViewer></PDFViewer>
             </div>
           </div>
         </div>
