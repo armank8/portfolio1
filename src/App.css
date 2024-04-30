@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 :root {
+  --primary-color: #04aa6d;
   --white: #fff;
   --black: #000;
   --max-width: 1200px;
 }
-body{
-    background-color: var(--black);
+body {
+  background-color: var(--black);
+}
+img {
+  /* display: flex; */
+  width: 100%;
 }
 .section_container {
   padding: 5rem 2rem;
@@ -23,7 +28,7 @@ h2 {
   color: var(--white);
 }
 p {
-  text-indent: 2rem;
+  /* text-indent: 2rem; */
   font-size: 1.2rem;
   line-height: 1.5rem;
   word-spacing: 0.2rem;
@@ -55,4 +60,20 @@ p {
 }
 
 /* Education */
-
+.ewu{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap:1rem;
+}
+.ewu_info{
+    display: flex;
+    align-items: center;
+}
+.ewu_details {
+  background: linear-gradient(to right,#015234, #020866);
+  border-radius: 2rem;
+  padding: .5rem;
+}
+.ewu img {
+  border-radius: 2rem;
+}
