@@ -1,0 +1,66 @@
+export const projects = [
+  {
+    id: 1,
+    name: "It-House",
+    tags: ["nextjs"],
+    tech: ["nextJs", "Node", "Ant Design"],
+    Description: "great project",
+  },
+
+  {
+    id: 2,
+    name: "PC-Maker",
+    tags: "nextjs",
+    tech: ["nextJs", "Node"],
+    Description: "pc builder",
+  },
+  {
+    id: 3,
+    name: "Lambo-parts",
+    tags: "react",
+    tech: ["Reactjs", "Node", "Tailwind css"],
+    Description: "Manufacturer website",
+  },
+  {
+    id: 4,
+    name: "penguin fashion",
+    tags: "react",
+    tech: ["Reactjs", "Node", "Tailwind css"],
+    Description: "Manufacturer website",
+  },
+  {
+    id: 5,
+    name: "Elegance convention center ",
+    tags: "landing-page",
+    tech: ["Reactjs", "Node", "css"],
+    Description: "Manufacturer website",
+  },
+  {
+    id: 6,
+    name: "Cow-hut",
+    tags: "node",
+    tech: ["Reactjs", "Node", "css"],
+    Description: "digital cow buy sell site",
+  },
+  {
+    id: 7,
+    name: "book",
+    tags: "node",
+    tech: ["Node", "postgres"],
+    Description: "book store",
+  },
+  {
+    id: 8,
+    name: "It-House",
+    tags: "next",
+    tech: ["nextJs", "Node", "Ant Design"],
+    Description: "great project",
+  },
+  {
+    id: 9,
+    name: "It-House",
+    tags: "next",
+    tech: ["nextJs", "Node", "Ant Design"],
+    Description: "It service",
+  },
+];

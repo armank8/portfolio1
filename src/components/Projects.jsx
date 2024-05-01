@@ -1,4 +1,7 @@
 import { useEffect, useState } from "react";
+import { projects } from "../data/projects";
+import SingleProject from "./SingleProject";
+
 export default function Projects() {
   // let [data, setData] = useState([]);
   let [click, setClick] = useState("");
@@ -61,7 +64,13 @@ export default function Projects() {
 
         {/* Projects container starts */}
         <div className="projects_container">
-            
+          {projects
+            .filter((item) => {
+              return click === ("" || "all") ? item : item.tags.includes(click);
+            })
+            .map((project) => (
+              <SingleProject key={project.id} project={project}></SingleProject>
+            ))}
         </div>
       </div>
     </section>
