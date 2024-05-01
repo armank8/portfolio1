@@ -1,7 +1,7 @@
 // import { FaReact } from "react-icons/fa";
-export default function SkillBox({item}) {
+export default function SingleSkill({ item }) {
   return (
-    <div className="skill_box">
+    <div className="single_skill">
       {/* <FaReact></FaReact> */}
       {item.icon}
       <span>{item.text}</span>

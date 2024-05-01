@@ -47,21 +47,24 @@ p {
 }
 
 /* Skills */
-.front {
+.skills_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
+  margin: 1rem 0 3rem 0;
 }
-.skill_box {
+.single_skill {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 0.5rem;
   font-size: 2rem;
   padding: 0.5rem;
   color: var(--primary-color);
   background-color: rgb(1, 82, 52, 0.5);
   border: 2px solid var(--primary-color);
-  width: 15rem;
+  border-radius: 1rem;
+  /* width: 15rem; */
 }
 
 /* About */
