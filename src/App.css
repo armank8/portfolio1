@@ -157,7 +157,7 @@ iframe {
 }
 /* media query */
 @media screen and (max-width: 1100px) {
-  .front {
+  .skills_wrapper {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -169,7 +169,7 @@ iframe {
   .stats_container {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .front {
+  .skills_wrapper {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -180,7 +180,7 @@ iframe {
 }
 
 @media screen and (max-width: 500px) {
-  .front {
+  .skills_wrapper {
     grid-template-columns: 1fr;
   }
 }

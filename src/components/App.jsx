@@ -10,7 +10,7 @@ function App() {
     <div style={{ marginTop: "5rem" }}>
       <About></About>
       <Skills></Skills>
-      <Projects></Projects>
+      {/* <Projects></Projects> */}
       <Education></Education>
       <Stats></Stats>
     </div>
