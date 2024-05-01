@@ -13,10 +13,31 @@ body {
   background-color: var(--black);
   color: var(--white);
 }
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  word-spacing: 0.2rem;
+  margin: 1rem 0;
+}
 img {
   /* display: flex; */
   width: 100%;
 }
+
+button{
+  font-size: 1rem;
+  font-weight: bold;
+  padding: .5rem;
+  width:8rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+}
+
 .section_container {
   padding: 5rem 2rem;
   max-width: var(--max-width);
@@ -29,16 +50,7 @@ img {
   /* margin-top: 0; */
 }
 
-h2 {
-  text-align: center;
-  font-size: 2rem;
-}
-p {
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  word-spacing: 0.2rem;
-  margin: 1rem 0;
-}
+
 /* columns */
 .column-two {
   display: grid;
@@ -81,6 +93,13 @@ p {
 }
 
 /* Projects */
+.project_categories{
+  display: flex;
+  justify-content: center;
+  gap:1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
 
 
 /* Testimonials */

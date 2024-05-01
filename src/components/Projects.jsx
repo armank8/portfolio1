@@ -60,7 +60,9 @@ export default function Projects() {
         {/* categories end */}
 
         {/* Projects container starts */}
-        <div className="projects_container"></div>
+        <div className="projects_container">
+            
+        </div>
       </div>
     </section>
   );
