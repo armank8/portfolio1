@@ -14,53 +14,53 @@ import { SiPrisma } from "react-icons/si";
 export const frontEndSkills=[
     {
         text:"React",
-        icon: <FaReact />,
+        icon: <FaReact></FaReact>,
     },
     {
         text:"Redux",
-        icon: <BiLogoRedux />,
+        icon: <BiLogoRedux></BiLogoRedux>,
     },
     {
         text:"Next",
-        icon: <TbBrandNextjs />,
+        icon: <TbBrandNextjs></TbBrandNextjs>,
     },
     {
         text:"TailwindCss",
-        icon: <BiLogoTailwindCss />,
+        icon: <BiLogoTailwindCss></BiLogoTailwindCss>,
     },
     {
         text:"Css",
-        icon: <IoLogoCss3 />,
+        icon: <IoLogoCss3></IoLogoCss3>,
     }
 ]
 
 export const backEndSkills=[
     {
         text:"Node",
-        icon: <FaNode />,
+        icon: <FaNode></FaNode>,
     },
     {
         text:"Express",
-        icon: <SiExpress />,
+        icon: <SiExpress></SiExpress>,
     },
     {
         text:"MongoDB",
-        icon: <BiLogoMongodb />,
+        icon: <BiLogoMongodb></BiLogoMongodb>,
     },
     {
         text:"Mongoose",
-        icon: <SiMongoose />,
+        icon: <SiMongoose></SiMongoose>,
     },
     {
         text:"SQL",
-        icon: <TbFileTypeSql />,
+        icon: <TbFileTypeSql></TbFileTypeSql>,
     },
     {
         text:"PostGreSQL",
-        icon: <DiPostgresql />,
+        icon: <DiPostgresql></DiPostgresql>,
     },
     {
         text:"Prisma",
-        icon: <SiPrisma />,
+        icon: <SiPrisma></SiPrisma>,
     }
 ]

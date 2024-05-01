@@ -1,4 +1,5 @@
 import SkillBox from "./SkillBox";
+import { frontEndSkills, backEndSkills } from "../data/skills";
 
 export default function Skills() {
   return (
@@ -9,8 +10,11 @@ export default function Skills() {
 
         <div className="skills_container">
           <h3>Front End skills</h3>
+
           <div className="front">
-            <SkillBox></SkillBox>
+            {frontEndSkills.map((item) => {
+              return <SkillBox key={item.text} item={item}></SkillBox>;
+            })}
           </div>
         </div>
       </div>
