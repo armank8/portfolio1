@@ -114,6 +114,11 @@ iframe {
   color: var(--primary-color);
   font-size: 3rem;
   transition: 1s linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1rem;
+  margin-bottom: 1rem;
 }
 .github a:hover {
   color: var(--white);

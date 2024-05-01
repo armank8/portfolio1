@@ -1,3 +1,6 @@
+import github from "../assets/github.png";
+import { FaGithub } from "react-icons/fa";
+
 export default function Stats() {
   return (
     <section className="stats" id="stats">
@@ -33,9 +36,10 @@ export default function Stats() {
           <h2>
             See complete reference to <br></br>
             <a href="https://github.com/armank8" target="_blank">
-              Github
+              <FaGithub /> <span>Github</span>
             </a>
           </h2>
+          <img src={github} alt="" />
         </div>
       </div>
     </section>
