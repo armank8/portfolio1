@@ -22,6 +22,12 @@ img {
   max-width: var(--max-width);
   margin: auto;
 }
+.section_subheader {
+  text-align: center;
+  /* font-size: .8rem; */
+  letter-spacing: 0.2rem;
+  /* margin-top: 0; */
+}
 
 h2 {
   text-align: center;
@@ -38,6 +44,19 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;
+}
+
+/* Skills */
+.skill_box {
+  display: flex;
+  align-items: center;
+  gap:.5rem;
+  font-size: 2rem;
+  padding: .5rem;
+  color:var(--primary-color);
+  background-color: rgb(1, 82, 52,.5);
+  border: 2px solid var(--primary-color);
+  width:10rem;
 }
 
 /* About */
@@ -117,7 +136,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:1rem;
+  gap: 1rem;
   margin-bottom: 1rem;
 }
 .github a:hover {
@@ -129,12 +148,12 @@ iframe {
   .institution {
     grid-template-columns: 1fr;
   }
-  .stats_container{
+  .stats_container {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 @media screen and (max-width: 600px) {
-  .stats_container{
+  .stats_container {
     grid-template-columns: 1fr 1fr;
   }
 }
