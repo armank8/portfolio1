@@ -11,6 +11,10 @@ import { TbFileTypeSql } from "react-icons/tb";
 import { DiPostgresql } from "react-icons/di";
 import { SiPrisma } from "react-icons/si";
 
+
+
+
+
 export const frontEndSkills=[
     {
         text:"React",

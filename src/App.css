@@ -46,6 +46,19 @@ p {
   gap: 5rem;
 }
 
+
+
+/* About */
+.about {
+  background-color: #000;
+}
+.about_container {
+  background-color: #111;
+  border-radius: 1rem;
+  /* padding-block: 0; */
+  margin-top: -8rem;
+  padding: 1rem;
+}
 /* Skills */
 .skills_wrapper {
   display: grid;
@@ -67,17 +80,8 @@ p {
   /* width: 15rem; */
 }
 
-/* About */
-.about {
-  background-color: #000;
-}
-.about_container {
-  background-color: #111;
-  border-radius: 1rem;
-  /* padding-block: 0; */
-  margin-top: -8rem;
-  padding: 1rem;
-}
+/* Projects */
+
 
 /* Testimonials */
 .testimonials h2 {

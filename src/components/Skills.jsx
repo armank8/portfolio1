@@ -1,4 +1,4 @@
-import { frontEndSkills, backEndSkills } from "../data/skills";
+import { frontEndSkills, backEndSkills } from "../data/skills.jsx";
 import SingleSkill from "./SingleSkill";
 
 export default function Skills() {
