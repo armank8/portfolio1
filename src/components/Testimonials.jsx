@@ -1,13 +1,15 @@
 import jhankar1 from "../assets/jhankar1.jpeg";
 import ricoz from "../assets/ricoz.jpg";
+import ph2 from "../assets/ph2.jpg";
 
 export default function Testimonials() {
   return (
     <section className="testimonials" id="testimonials">
       <div className="section_container">
         <h2>Testimonials</h2>
+        
 
-        <div className="column-two">
+        <div className="testimonials_container">
           <div className="level1">
             {/* Level1 info */}
             <div className="testimonial_info">
@@ -27,11 +29,30 @@ export default function Testimonials() {
               who can finish the assigned task on time.
             </p>
 
+            {/* Level2 info */}
+            <div className="testimonial_info">
+              <div className="testimonial_image">
+                <img src={ph2} alt="" />
+              </div>
+              <h4>Programming Hero</h4>
+            </div>
+            {/* level2 description */}
+            <p>
+              In recognition of successful completion of the Next Level Full
+              Stack Track Web Development COurse, this intensive program covered
+              a comprehensive range of technologies, including TypeScript, Node,
+              Express, MongoDB, Mongoose, SQL, PostGreSQL, Prisma, React, Redux,
+              Next and Docker. We are confident that the knowledge and skills
+              acquired through this program will prepare graduates for a
+              reqarding and impactful career in the dynamic world of web
+              development. We wish them all the best in their future endeavors.
+            </p>
+
             <div></div>
           </div>
 
           <div className="ricoz">
-          {/* ricoz info */}
+            {/* ricoz info */}
             <div className="testimonial_info">
               <div className="testimonial_image">
                 <img src={ricoz} alt="" />

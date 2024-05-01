@@ -13,7 +13,7 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Education></Education>
-      <Stats></Stats>
+      {/* <Stats></Stats> */}
       <Testimonials></Testimonials>
     </div>
   );
