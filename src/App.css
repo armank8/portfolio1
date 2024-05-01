@@ -180,6 +180,23 @@ iframe {
   color: var(--white);
   font-size: 3.5rem;
 }
+
+/*Testimonials  */
+.testimonial_info {
+  display: flex;
+  align-items: center;
+  gap:2rem;
+}
+.testimonial_image {
+  width: 4rem;
+  height: 4rem;
+}
+.testimonial_image img {
+  border-radius: 50%;
+}
+.ricoz img{
+  margin-top: 1rem;
+}
 /* media query */
 @media screen and (max-width: 1100px) {
   .skills_wrapper {
