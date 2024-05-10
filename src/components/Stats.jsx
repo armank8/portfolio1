@@ -6,7 +6,7 @@ export default function Stats() {
     <section className="stats" id="stats">
       <div className="section_container">
         <div className="stats_header">
-          <h2>Stats</h2>
+          <h2 className="section_header">Stats</h2>
           <p>Projects I have completed</p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Stats() {
           </div>
         </div>
         <div className="github">
-          <h2>
+          <h2 className="section_header">
             See complete reference to <br></br>
             <a href="https://github.com/armank8" target="_blank">
               <FaGithub /> <span>Github</span>

@@ -30,7 +30,7 @@ export default function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="section_container">
-        <h2>Projects</h2>
+        <h2 className="section_header">Projects</h2>
 
         {/* Project categories */}
         <div className="project_categories">

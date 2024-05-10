@@ -9,7 +9,7 @@ export default function Education() {
   return (
     <section className="education" id="education">
       <div className="section_container">
-        <h2>Education</h2>
+        <h2 className="section_header">Education</h2>
 
         <div className="education_container">
           {/* Ewu */}

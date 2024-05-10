@@ -14,9 +14,7 @@
   gap: 0.5rem;
 }
 .button_container {
-  display: flex;
-  gap: 2rem;
-  /* justify-content: space-between; */
+ 
 }
 .glass_button {
   background-color: rgba(0, 0, 0, 0.3);

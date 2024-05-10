@@ -6,10 +6,16 @@ export default function About() {
     <section className="about" id="about">
       <div className="section_container">
         <div className={styles.about_container}>
-          <div className={styles.about_image}>
+          {/* left */}
+          <div className={styles.about_intro}>
             <h2>About Me</h2>
             <img style={{ width: "80%" }} src={arman} alt="" />
+            <div className="button_container">
+              <button className={styles.glass_button}>My Skills</button>
+              <button className={styles.glass_button}>Projects</button>
+            </div>
           </div>
+          {/* Right about para  */}
           <div className={styles.para_container}>
             <p className="para">
               I am an enthusiastic and skilled web developer with a deep passion
@@ -21,7 +27,7 @@ export default function About() {
               set of technologies to create dynamic and user-friendly web
               applications.
             </p>
-            <p className="para">
+            {/* <p className="para">
               In the front-end , my proficiency includes HTML, CSS, javaScript,
               TypeScript, ReactJs, NextJs and Redux. I'm well versed in
               component-driven development and i enjoy working with UI libraries
@@ -40,7 +46,7 @@ export default function About() {
               modular pattern. I use Zod for data validation and JWT for
               authorization and authentication.Feel free to connect with me. I
               am eager to collaborate on exciting projects.
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

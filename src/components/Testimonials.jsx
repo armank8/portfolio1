@@ -6,8 +6,7 @@ export default function Testimonials() {
   return (
     <section className="testimonials" id="testimonials">
       <div className="section_container">
-        <h2>Testimonials</h2>
-        
+        <h2 className="section_header">Testimonials</h2>
 
         <div className="testimonials_container">
           <div className="level1">
