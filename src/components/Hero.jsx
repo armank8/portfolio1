@@ -9,11 +9,14 @@ export default function Hero() {
           <div className={styles.intro}>
             <h4>Hi, I am Arman Kabir</h4>
             <h1>Full-Stack Web Developer</h1>
-            <p>JavaScript Programmer</p>
-            <h1></h1>
+            <p className="section_subheader">JavaScript Programmer</p>
+            <div className={styles.button_container}>
+              <button className={styles.glass_button}>Resume</button>
+              <button className={styles.glass_button}>Contact</button>
+            </div>
           </div>
-          <div className="hero_image">
-            <img src={all} alt="" />
+          <div className={styles.hero_image}>
+            <img style={{ width: "70%" }} src={all} alt="" />
           </div>
         </div>
       </div>
