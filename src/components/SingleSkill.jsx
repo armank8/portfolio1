@@ -3,8 +3,10 @@ export default function SingleSkill({ item }) {
   return (
     <div className="single_skill">
       {/* <FaReact></FaReact> */}
-      {item.icon}
+      <div className="body">
+      <span>{item.icon}</span>
       <span>{item.text}</span>
+      </div>
     </div>
   );
 }

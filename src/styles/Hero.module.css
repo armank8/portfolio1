@@ -1,6 +1,7 @@
 .home {
-  background-color: var(--white);
-  color: var(--black);
+  /* background-color: var(--white); */
+  /* background: linear-gradient(45deg, #00052a 9.42%, #600986 109.02%); */
+  /* color: var(--black); */
 }
 .hero_container {
   display: grid;
@@ -14,7 +15,6 @@
   gap: 0.5rem;
 }
 .button_container {
- 
 }
 .glass_button {
   background-color: rgba(0, 0, 0, 0.3);
@@ -31,10 +31,10 @@
   .hero_container {
     grid-template-columns: 1fr;
   }
-  .intro{
+  .intro {
     align-items: center;
   }
-  h1{
+  h1 {
     text-align: center;
   }
 }

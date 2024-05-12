@@ -9,7 +9,7 @@ export default function Skills() {
         <p className="section_subheader">Techs i am good at</p>
 
         <div className="skills_container">
-          <h3>Front End skills</h3>
+          <h4>Front End skills</h4>
 
           <div className="skills_wrapper">
             {frontEndSkills.map((item) => {
@@ -17,7 +17,7 @@ export default function Skills() {
             })}
           </div>
 
-          <h3>Backend End skills</h3>
+          <h4>Backend End skills</h4>
 
           <div className="skills_wrapper">
             {backEndSkills.map((item) => {

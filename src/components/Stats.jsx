@@ -7,7 +7,7 @@ export default function Stats() {
       <div className="section_container">
         <div className="stats_header">
           <h2 className="section_header">Stats</h2>
-          <p>Projects I have completed</p>
+          <p className="section_subheader">Projects I have completed</p>
         </div>
 
         <div className="stats_container">
