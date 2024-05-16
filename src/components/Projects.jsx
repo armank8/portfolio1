@@ -29,7 +29,7 @@ export default function Projects() {
 
   return (
     <section className="projects" id="projects">
-      <div className="section_container">
+      <div className="section_container container">
         <h2 className="section_header">Projects</h2>
 
         {/* Project categories */}

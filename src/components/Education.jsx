@@ -1,9 +1,7 @@
 import arman3 from "../assets/arman3.jpg";
 import certificate1 from "../assets/certificate1.jpg";
 import certificate2 from "../assets/certificate2.jpg";
-
-
-
+import Slider from "./Slider";
 
 export default function Education() {
   return (
@@ -12,8 +10,10 @@ export default function Education() {
         <h2 className="section_header">Education</h2>
 
         <div className="education_container">
+          <Slider></Slider>
+
           {/* Ewu */}
-          <div className="institution">
+          {/* <div className="institution">
             <div className="institution_info">
               <div className="institution_details">
                 <p>B.Sc in Computer Science and Engineering(CSE)</p>
@@ -25,10 +25,10 @@ export default function Education() {
             <div className="institution_img">
               <img src={arman3} alt="" />
             </div>
-          </div>
+          </div> */}
 
           {/* Level-1 */}
-          <div className="institution">
+          {/* <div className="institution">
             <div className="institution_info">
               <div className="institution_details">
                 <p>B.Sc in Computer Science and Engineering(CSE)</p>
@@ -40,10 +40,10 @@ export default function Education() {
             <div className="institution_img">
               <img src={certificate1} alt="" />
             </div>
-          </div>
+          </div> */}
 
           {/* Level2 */}
-          <div className="institution">
+          {/* <div className="institution">
             <div className="institution_info">
               <div className="institution_details">
                 <p>B.Sc in Computer Science and Engineering(CSE)</p>
@@ -57,7 +57,7 @@ export default function Education() {
               <img src={certificate2} alt="" />
             </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

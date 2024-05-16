@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Stats() {
   return (
     <section className="stats" id="stats">
-      <div className="section_container">
+      <div className="section_container container">
         <div className="stats_header">
           <h2 className="section_header">Stats</h2>
           <p className="section_subheader">Projects I have completed</p>
@@ -34,7 +34,7 @@ export default function Stats() {
         </div>
         <div className="github">
           <h2 className="section_header">
-            See complete reference to <br></br>
+            <span>See complete reference to</span> <br></br>
             <a href="https://github.com/armank8" target="_blank">
               <FaGithub /> <span>Github</span>
             </a>

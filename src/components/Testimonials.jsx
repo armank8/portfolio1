@@ -5,7 +5,7 @@ import ph2 from "../assets/ph2.jpg";
 export default function Testimonials() {
   return (
     <section className="testimonials" id="testimonials">
-      <div className="section_container">
+      <div className="section_container container">
         <h2 className="section_header">Testimonials</h2>
 
         <div className="testimonials_container">

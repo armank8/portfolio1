@@ -4,7 +4,7 @@ import styles from "../styles/About.module.css";
 export default function About() {
   return (
     <section className="about" id="about">
-      <div className="section_container">
+      <div className="section_container container">
         <div className={styles.about_container}>
           {/* left */}
           <div className={styles.about_intro}>

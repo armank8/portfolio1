@@ -4,7 +4,7 @@ import SingleSkill from "./SingleSkill";
 export default function Skills() {
   return (
     <section className="skills" id="skills">
-      <div className="section_container">
+      <div className="section_container container">
         <h2 className="section_header">My Skills</h2>
         <p className="section_subheader">Techs i am good at</p>
 
