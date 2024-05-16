@@ -98,7 +98,25 @@ button:active {
   font-weight: bold;
 }
 
-/* columns */
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+ul {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul li a:hover {
+  color: var(--primary-color);
+}
 
 /* Hero */
 
