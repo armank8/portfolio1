@@ -23,7 +23,10 @@ export default function Slider() {
       coverflow-effect-slide-shadows="true"
     >
       <swiper-slide>
-        <img src={certificate2} />
+        <div className={styles.slide_div}>
+          <img src={certificate2} />
+          <h2>We dev</h2>
+        </div>
       </swiper-slide>
       <swiper-slide>
         <img src={arman3} />
@@ -31,7 +34,6 @@ export default function Slider() {
       <swiper-slide>
         <img src={certificate1} />
       </swiper-slide>
-      
     </swiper-container>
   );
 }

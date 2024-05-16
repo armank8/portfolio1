@@ -1,4 +1,4 @@
-import arman from "../assets/arman.png";
+import arman4 from "../assets/arman4.png";
 import styles from "../styles/About.module.css";
 
 export default function About() {
@@ -9,7 +9,7 @@ export default function About() {
           {/* left */}
           <div className={styles.about_intro}>
             <h2>About Me</h2>
-            <img style={{ width: "80%" }} src={arman} alt="" />
+            <img style={{ width: "80%" }} src={arman4} alt="" />
             <div className="button_container">
               <button className={styles.glass_button}>My Skills</button>
               <button className={styles.glass_button}>Projects</button>
