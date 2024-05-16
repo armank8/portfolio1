@@ -1,0 +1,26 @@
+.gotop_div {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+  /* background-color: #320047; */
+  background-color: transparent;
+  color: white;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+  width: 55px;
+  /* height: 80px; */
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 5s ease;
+}
+.gotop_div:hover {
+  background-color: #a00ddf;
+}
+
+.top_icon {
+  font-size: 2rem;
+}
