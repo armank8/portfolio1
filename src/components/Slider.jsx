@@ -1,3 +1,6 @@
+import arman3 from "../assets/arman3.jpg";
+import certificate1 from "../assets/certificate1.jpg";
+import certificate2 from "../assets/certificate2.jpg";
 import styles from "../styles/Slider.module.css";
 // import function to register Swiper custom elements
 import { register } from "swiper/element/bundle";
@@ -20,32 +23,15 @@ export default function Slider() {
       coverflow-effect-slide-shadows="true"
     >
       <swiper-slide>
-        <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
+        <img src={certificate2} />
       </swiper-slide>
       <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+        <img src={arman3} />
       </swiper-slide>
       <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+        <img src={certificate1} />
       </swiper-slide>
-      <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-      </swiper-slide>
-      <swiper-slide>
-        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
-      </swiper-slide>
+      
     </swiper-container>
   );
 }
