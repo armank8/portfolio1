@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
 import all from "../assets/all.svg";
 import styles from "../styles/Hero.module.css";
 
 export default function Hero() {
+  const github = "https://github.com/armank8";
+  const resume =
+    "https://drive.google.com/file/d/1s4qOp0rKkfnYgiede-EYzJToCj_8H3Wu/view";
+
   return (
     <section className={styles.home} id="home">
       <div className="section_container container">
@@ -15,8 +20,12 @@ export default function Hero() {
             </p>
             {/* buttons */}
             <div className="button_container">
-              <button className={styles.glass_button}>Resume</button>
-              <button className={styles.glass_button}>See Github</button>
+              <Link to={resume}>
+                <button className={styles.glass_button}>Resume</button>
+              </Link>
+              <Link to={github}>
+                <button className={styles.glass_button}>See Github</button>
+              </Link>
             </div>
           </div>
           <div className={styles.hero_image}>
