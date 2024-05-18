@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import styles from "../styles/Header.module.css";
 export default function Header() {
   return (
@@ -10,19 +11,19 @@ export default function Header() {
         <nav>
           <ul className={styles.menu_items}>
             <li>
-              <a href="/#home">Home</a>
+              <Link to="#home">Home</Link>
             </li>
             <li>
-              <a href="/#about">About</a>
+              <Link to="#about">About</Link>
             </li>
             <li>
-              <a href="/#skills">Skills</a>
+              <Link to="#skills">Skills</Link>
             </li>
             <li>
-              <a href="/#projects">Projects</a>
+              <Link to="#projects">Projects</Link>
             </li>
             <li>
-              <a href="/#education">Education</a>
+              <Link to="#education">Education</Link>
             </li>
           </ul>
         </nav>

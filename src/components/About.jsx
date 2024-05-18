@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 import arman4 from "../assets/arman4.png";
 import styles from "../styles/About.module.css";
 
@@ -12,10 +13,10 @@ export default function About() {
             <h2>About Me</h2>
             <img style={{ width: "80%" }} src={arman4} alt="" />
             <div className="button_container">
-              <Link to="/skills">
+              <Link to="#skills">
                 <button className={styles.glass_button}>My Skills</button>
               </Link>
-              <Link to="/#projects">
+              <Link to="#projects">
                 <button className={styles.glass_button}>Projects</button>
               </Link>
             </div>

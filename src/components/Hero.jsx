@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import all from "../assets/all.svg";
 import styles from "../styles/Hero.module.css";
 
@@ -20,12 +19,12 @@ export default function Hero() {
             </p>
             {/* buttons */}
             <div className="button_container">
-              <Link to={resume}>
+              <a href={resume} target="_blank">
                 <button className={styles.glass_button}>Resume</button>
-              </Link>
-              <Link to={github}>
+              </a>
+              <a href={github} target="_blank">
                 <button className={styles.glass_button}>See Github</button>
-              </Link>
+              </a>
             </div>
           </div>
           <div className={styles.hero_image}>
