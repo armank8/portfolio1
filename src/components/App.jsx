@@ -1,3 +1,4 @@
+import { BrowserRouter as Router } from "react-router-dom";
 import "../App.css";
 import arman2 from "../assets/arman2.png";
 import About from "./About";
@@ -10,7 +11,6 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (

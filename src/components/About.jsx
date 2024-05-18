@@ -15,7 +15,7 @@ export default function About() {
               <Link to="/skills">
                 <button className={styles.glass_button}>My Skills</button>
               </Link>
-              <Link to="/projects">
+              <Link to="/#projects">
                 <button className={styles.glass_button}>Projects</button>
               </Link>
             </div>
