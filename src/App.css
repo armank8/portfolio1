@@ -103,12 +103,12 @@ button:active {
 /* Header */
 header {
   position: sticky;
-  top:0;
-  left:0;
-  right:0;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: var(--black);
 }
-.header_container{
+.header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,11 +179,43 @@ ul li a:hover {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+
+/* single project */
 .single_project {
   border: 1px solid var(--primary-color);
-  padding: 1rem;
+  /* padding: 1rem; */
   border-radius: 1rem;
+  margin-bottom: 5rem;
 }
+.project_image {
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+.screenshot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: moveScreenshot 10s ease-in-out infinite;
+}
+.project_desc{
+  padding: 1rem;
+}
+
+@keyframes moveScreenshot {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-80%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+
+
 /* swiper slide */
 swiper-slide {
   background-position: center;
