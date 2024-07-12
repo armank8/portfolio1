@@ -10,14 +10,14 @@ export default function About() {
         <div className={styles.about_container}>
           {/* left */}
           <div className={styles.about_intro}>
-            <h2>About Me</h2>
+            <h2 className="section_header">About Me</h2>
             <img style={{ width: "80%" }} src={arman4} alt="" />
             <div className="button_container">
               <Link to="#skills">
-                <button className={styles.glass_button}>My Skills</button>
+                <button className="btn">My Skills</button>
               </Link>
               <Link to="#projects">
-                <button className={styles.glass_button}>Projects</button>
+                <button className="btn">Projects</button>
               </Link>
             </div>
           </div>

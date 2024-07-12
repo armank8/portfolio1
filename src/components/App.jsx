@@ -11,11 +11,13 @@ import Projects from "./Projects";
 import Skills from "./Skills";
 import Stats from "./Stats";
 import Testimonials from "./Testimonials";
+import TopBar from "./TopBar";
 
 function App() {
   return (
     <Router>
       <div style={{ position: "relative" }}>
+        {/* <TopBar></TopBar> */}
         <Header></Header>
         <GoTop></GoTop>
         <Hero></Hero>

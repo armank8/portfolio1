@@ -59,7 +59,7 @@ img {
   width: 100%;
 }
 
-button {
+.btn{
   color: var(--primary-color);
   background-color: rgba(1, 82, 52, 0.1);
   /* background-color: transparent; */
@@ -91,6 +91,8 @@ button:active {
 }
 .section_header {
   text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
   /* margin-block: 3rem ; */
 }
 .section_subheader {
@@ -111,8 +113,9 @@ header {
 .header_container {
   display: flex;
   justify-content: space-between;
+  flex-wrap:wrap;
   align-items: center;
-  padding: 1rem 0;
+  padding: .5rem 0;
 }
 ul {
   list-style: none;

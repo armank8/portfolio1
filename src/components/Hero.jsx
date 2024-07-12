@@ -12,18 +12,18 @@ export default function Hero() {
         <div className={styles.hero_container}>
           {/* left side intro */}
           <div className={styles.intro}>
-            <h4>Hi, I am Arman Kabir</h4>
-            <h1>Full-Stack Web Developer</h1>
+            <h4 className="text-2xl">Hi, I am Arman Kabir</h4>
+            <h1 className="text-4xl font-black">Full-Stack Web Developer</h1>
             <p className="section_subheader" style={{ textAlign: "left" }}>
               JavaScript Programmer
             </p>
             {/* buttons */}
             <div className="button_container">
               <a href={resume} target="_blank">
-                <button className={styles.glass_button}>Resume</button>
+                <button className="btn">Resume</button>
               </a>
               <a href={github} target="_blank">
-                <button className={styles.glass_button}>See Github</button>
+                <button className="btn">See Github</button>
               </a>
             </div>
           </div>
