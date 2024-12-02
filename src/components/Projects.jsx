@@ -11,25 +11,11 @@ export default function Projects() {
     console.log(arg);
   }
 
-  // useEffect(() => {
-  //     const fetchData = async () => {
-  //         try {
-  //             const response = await fetch('data.json');
-  //             const jsonData = await response.json();
-  //             setData(jsonData);
-  //             // setFilteredData(jsonData);
-
-  //         } catch (error) {
-  //             console.log(error);
-  //         }
-  //     }
-
-  //     fetchData();
-  // }, [])
+ 
 
   return (
     <section className="projects" id="projects">
-      <div className="section_container container">
+      <div className="container section_container">
         <h2 className="section_header">Projects</h2>
 
         {/* Project categories */}

@@ -86,8 +86,8 @@ button:active {
   padding: 5rem 2rem;
 }
 .container {
-  max-width: var(--max-width);
-  margin: auto;
+  width: var(--max-width);
+  margin: 0 auto;
 }
 .section_header {
   text-align: center;

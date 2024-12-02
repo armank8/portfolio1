@@ -59,12 +59,12 @@ export default function Testimonials() {
               <h4>Ricoz</h4>
             </div>
             <p>
-              Congratulations on completing 4 months Internship that is from
-              01/12/2023 01/04/2024 as a Backend Developer Intern with Ricoz .
+              Congratulations on completing 4 months Project that is from
+              01/12/2023 01/04/2024 as a Backend Developer with Ricoz .
               We take this special moment to celebrate this milestone in your
               career. We at Ricoz appreciate your hard work and dedication which
               have brought positive changes to our organization. It was an honor
-              to have such an amazing intern working for us.
+              to have such an amazing developer working for us.
             </p>
             <p>
               We would like to thank you for all the efforts you have put.
